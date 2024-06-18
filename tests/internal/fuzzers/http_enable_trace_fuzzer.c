@@ -6,7 +6,6 @@
 #include <fluent-bit/flb_http_server.h>
 #include <fluent-bit/flb_sds.h>
 #include <fluent-bit/flb_config.h>
-#include <trace.h>  
 
 int LLVMFuzzerTestOneInput(const uint8_t *data, size_t size) {
     mk_request_t request;
